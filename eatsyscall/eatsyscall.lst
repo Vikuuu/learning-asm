@@ -1,0 +1,35 @@
+     1                                  ; Executable name: EATSYSCALL
+     2                                  ; Version: 1.0
+     3                                  ; Created date: 2025-11-16
+     4                                  ; Author: Guts
+     5                                  ; Description: A simple program in assembly for Linux, using NASM
+     6                                  
+     7                                  ; Build using the following command
+     8                                  ; nasm -f elf64 -g -F dwarf eatsyscall.asm
+     9                                  ; ld -o eatsyscall eatsyscall.o
+    10                                  
+    11                                  SECTION .data                  ; Section containing intialized data
+    12                                  
+    13 00000000 42616E6B61690A              EatMsg: db "Bankai", 0Ah
+    14                                      EatLen: equ $-EatMsg
+    15                                  
+    16                                  SECTION .bss                   ; Section containing uninitialized data
+    17                                  
+    18                                  SECTION .text                  ; Section containing code
+    19                                  
+    20                                  global _start                  ; Linked need this to find the starting point
+    21                                  
+    22                                  _start:
+    23 00000000 4889E5                      mov rbp, rsp                   ; for correct debugging
+    24 00000003 90                          nop                            ; This no-op for gdb
+    25                                  
+    26 00000004 B801000000                  mov rax, 1                     ; Specify sys_write call
+    27 00000009 BF01000000                  mov rdi, 1                     ; Specify fd = 1, standard output
+    28 0000000E 48BE-                       mov rsi, EatMsg                ; Pass offset of the message
+    28 00000010 [0000000000000000] 
+    29 00000018 BA07000000                  mov rdx, EatLen                ; Pass the length of the message
+    30 0000001D 0F05                        syscall                        ; Make kernal call
+    31                                  
+    32 0000001F B83C000000                  mov rax, 60                    ; Specify the sys_exit call
+    33 00000024 BF00000000                  mov rdi, 0                     ; Return status code
+    34 00000029 0F05                        syscall                        ; Make kernal call
