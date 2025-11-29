@@ -25,6 +25,9 @@ _start:
         mov rdx, BuffLen  ; Read 1 character from stdin
         syscall           ; Call sys_read
         mov r12, rax      ; move sys_call return value
+        ; Error handling
+        cmp r12, -1
+        je Error
         cmp rax, 0        ; Check the return status code to be 0
         je Done           ; If the status code is 0, that mean EOF, exit
 
@@ -55,8 +58,10 @@ _start:
         mov rsi, Buff    ; Pass buffer addr offset to write
         mov rdx, r12     ; Write one character to stdout
         syscall          ; Call sys_write
+        mov r12, rax
+        cmp r12, -1
+        je Error
         jmp Read         ; Read new character from the stdin
-
 
     ; End of the program, exit with return code 0
     Done:
@@ -64,3 +69,9 @@ _start:
         mov rax, 60  ; Kernal call syscall_exit
         mov rdi, 0   ; Return code value
         syscall      ; Call sys_exit
+
+    Error:
+        ; Set up for sys_exit
+        mov rax, 60
+        mov rdi, 1
+        syscall
