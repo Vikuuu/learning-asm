@@ -1,7 +1,7 @@
 ; Executable name: uppercase
 ; Version: 1.0
 ; Created at: 2025-11-19
-; Updated at: 
+; Updated at: 2025-12-02
 ; Author: Guts
 ; Description: Convert any lowercase letter to uppercase
 
@@ -34,15 +34,15 @@ _start:
         ; Set up registers for the process buffer step:
         mov rbx, rax  ; Place the number of bytes to read into rbx
         mov r13, Buff ; Place the address of Buff in r13
-        dec r13       ; Adjust r13 to offset by one.
+        ; dec r13       ; Adjust r13 to offset by one.
 
     Scan:
-        cmp byte [r13+rbx], 61h  ; Test input char against lowecase 'a'
+        cmp byte [r13-1+rbx], 61h  ; Test input char against lowecase 'a'
         jb .Next                 ; If below 'a' in ASCII, not lower case
-        cmp byte [r13+rbx], 7Ah  ; Test input char against lowercase 'z'
+        cmp byte [r13-1+rbx], 7Ah  ; Test input char against lowercase 'z'
         ja .Next                 ; If above 'z' in ASCII, not lowercase
         ; At this point, we have a lowercase character
-        sub byte [r13+rbx], 20h ; Subtracting 20h to make uppercase
+        sub byte [r13-1+rbx], 20h ; Subtracting 20h to make uppercase
     ; Check we have read all the buffer or not.
     .Next:
         dec rbx    ; Decrement the counter by 1
