@@ -1,0 +1,14 @@
+I2025-12-04T14:48:07.167965:blink/loader.c:566:160353 executable file empty
+I2025-12-04T14:48:11.741470:blink/loader.c:566:160408 executable file empty
+I2025-12-04T14:49:07.741810:blink/blinkenlights.c:3286:161153 Tui
+I2025-12-04T14:49:07.741895:blink/blinkenlights.c:953:161153 loaded program ./xlat
+000000400000-000000400fff  4096 100% r   ./xlat
+000000401000-000000401fff  4096 100% rx  ./xlat
+000000402000-000000402fff  4096 100% rw  ./xlat
+4fffff800000-4fffffffffff 8192k   1% rwx [stack]
+I2025-12-04T14:49:07.741938:blink/blinkenlights.c:773:161153 TuiRejuvinate
+I2025-12-04T14:49:09.606947:blink/blinkenlights.c:3092:161153 ReadKeyboard interrupted
+I2025-12-04T14:49:10.716764:blink/blinkenlights.c:3365:161153 TUI EXIT
+I2025-12-04T14:49:10.716786:blink/blinkenlights.c:842:161153 TuiCleanup
+I2025-12-04T14:49:10.716789:blink/blinkenlights.c:834:161153 TtyRestore
+I2025-12-04T14:49:10.717118:blink/blinkenlights.c:834:0 TtyRestore
