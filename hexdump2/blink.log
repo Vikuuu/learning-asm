@@ -1,0 +1,59 @@
+I2025-12-05T12:27:39.244995:blink/blinkenlights.c:3286:139317 Tui
+I2025-12-05T12:27:39.245193:blink/blinkenlights.c:953:139317 loaded program ./hexdump2
+000000400000-000000400fff  4096 100% r   ./hexdump2
+000000401000-000000401fff  4096 100% rx  ./hexdump2
+000000402000-000000402fff  4096 100% rw  ./hexdump2
+4fffff800000-4fffffffffff 8192k   1% rwx [stack]
+I2025-12-05T12:27:39.245249:blink/blinkenlights.c:773:139317 TuiRejuvinate
+I2025-12-05T12:27:41.242972:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:17:21.893215:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:21:21.564098:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:38:34.585222:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:38:39.759369:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:38:43.863598:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:38:46.900752:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:38:59.969302:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:39:14.534908:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:39:26.939608:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:39:28.316648:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:39:33.146793:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:39:37.557104:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:40:46.951371:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:42:53.873800:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:43:08.272644:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:47:42.523941:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:47:43.736374:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:51:17.781647:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:52:47.767629:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:52:50.924080:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:53:01.806657:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T13:54:13.036849:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:04:06.704145:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:04:12.444479:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:04:24.459767:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:05:13.411149:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:22:52.353207:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:22:59.332027:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:23:26.123559:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:23:35.507709:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:23:39.359627:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:23:49.758877:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:23:57.503814:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:24:08.413122:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:24:08.767829:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:24:09.572212:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:24:12.668542:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:24:15.383366:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:24:20.828089:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:24:24.295380:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:24:29.801028:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:24:36.201343:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:24:38.441999:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:24:40.776206:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:24:58.941565:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:25:17.449937:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:25:28.104061:blink/blinkenlights.c:3092:139317 ReadKeyboard interrupted
+I2025-12-05T14:30:16.717477:blink/blinkenlights.c:3365:139317 TUI EXIT
+I2025-12-05T14:30:16.717545:blink/blinkenlights.c:842:139317 TuiCleanup
+I2025-12-05T14:30:16.717555:blink/blinkenlights.c:834:139317 TtyRestore
+I2025-12-05T14:30:16.718267:blink/blinkenlights.c:834:0 TtyRestore
