@@ -1,3 +1,7 @@
+.PHONY: all test clean run
+
+all: hexdump3
+
 hexdump3: hexdump3.o textlib.o
 	ld -o hexdump3 hexdump3.o textlib.o
 hexdump3.o: hexdump3.asm
@@ -11,3 +15,5 @@ test:
 
 clean:
 	rm -f hexdump3 *.o
+
+run: all test clean
