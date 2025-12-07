@@ -10,6 +10,8 @@ SECTION .bss        ; Section containing uninitialized data
     BUFFLEN EQU 10h
     Buff    resb BUFFLEN
 
+GLOBAL Buff, BUFFLEN
+
 SECTION .data       ; Section containing initialised data
 
     ; Here we have two parts of a single usefull data structure, implementing
@@ -189,3 +191,5 @@ LoadBuff:
     pop rdx
     pop rax
     ret
+
+GLOBAL ClearLine, DumpChar, LoadBuff, PrintLine

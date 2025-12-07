@@ -9,7 +9,9 @@ SECTION .bss
 SECTION .data
 SECTION .text
 
-%INCLUDE "textlib.asm"
+;%INCLUDE "textlib.asm"
+EXTERN ClearLine, DumpChar, LoadBuff, PrintLine
+EXTERN Buff, BUFFLEN
 
 GLOBAL _start
 
