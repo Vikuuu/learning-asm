@@ -10,8 +10,6 @@ SECTION .bss        ; Section containing uninitialized data
     BUFFLEN EQU 10h
     Buff    resb BUFFLEN
 
-GLOBAL Buff, BUFFLEN
-
 SECTION .data       ; Section containing initialised data
 
     ; Here we have two parts of a single usefull data structure, implementing
@@ -54,6 +52,9 @@ SECTION .data       ; Section containing initialised data
         db 2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh
         db 2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh
         db 2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh,2Eh
+
+GLOBAL Buff, BUFFLEN
+GLOBAL ClearLine, DumpChar, LoadBuff, PrintLine
 
 SECTION .text ; Section containing code
 
@@ -191,5 +192,3 @@ LoadBuff:
     pop rdx
     pop rax
     ret
-
-GLOBAL ClearLine, DumpChar, LoadBuff, PrintLine
