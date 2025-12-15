@@ -1,0 +1,20 @@
+I2025-12-15T22:12:12.237240:blink/blinkenlights.c:3286:82218 Tui
+I2025-12-15T22:12:12.237323:blink/blinkenlights.c:953:82218 loaded program movsbdemo
+000000400000-000000400fff  4096 100% r   movsbdemo
+000000401000-000000401fff  4096 100% rx  movsbdemo
+000000402000-000000402fff  4096 100% rw  movsbdemo
+4fffff800000-4fffffffffff 8192k   1% rwx [stack]
+I2025-12-15T22:12:12.237357:blink/blinkenlights.c:773:82218 TuiRejuvinate
+I2025-12-15T22:12:21.621073:blink/blinkenlights.c:3092:82218 ReadKeyboard interrupted
+I2025-12-15T22:12:23.804475:blink/blinkenlights.c:3092:82218 ReadKeyboard interrupted
+I2025-12-15T22:12:25.316517:blink/blinkenlights.c:3092:82218 ReadKeyboard interrupted
+I2025-12-15T22:12:27.092540:blink/blinkenlights.c:3092:82218 ReadKeyboard interrupted
+I2025-12-15T22:12:28.892667:blink/blinkenlights.c:3092:82218 ReadKeyboard interrupted
+I2025-12-15T22:12:30.236498:blink/blinkenlights.c:3092:82218 ReadKeyboard interrupted
+I2025-12-15T22:12:33.124212:blink/blinkenlights.c:3092:82218 ReadKeyboard interrupted
+I2025-12-15T22:12:36.603930:blink/blinkenlights.c:3092:82218 ReadKeyboard interrupted
+I2025-12-15T22:12:38.692379:blink/blinkenlights.c:3092:82218 ReadKeyboard interrupted
+I2025-12-15T22:15:19.722882:blink/blinkenlights.c:3365:82218 TUI EXIT
+I2025-12-15T22:15:19.722907:blink/blinkenlights.c:842:82218 TuiCleanup
+I2025-12-15T22:15:19.722912:blink/blinkenlights.c:834:82218 TtyRestore
+I2025-12-15T22:15:19.723382:blink/blinkenlights.c:834:0 TtyRestore
